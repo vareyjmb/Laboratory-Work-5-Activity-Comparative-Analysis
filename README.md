@@ -76,5 +76,13 @@ Web deployment — use TensorFlow.js for browser-based inference
 API backend — deploy model on cloud (AWS/GCP) with REST API for image upload
 Real-time camera — integrate with device camera for instant grain identification
 Offline capability — MobileNetV2's small size (~14MB) enables offline use
+
+----------------------------------------
+| Model       | Train Acc | Train Loss | Test Acc | Test Loss | ROC AUC |
+| :---------- | :-------- | :--------- | :------- | :-------- | :------ |
+| VGG16       | 57.18%    | 1.6072     | 75.60%   | 1.4574    | 0.89    |
+| ResNet50    | 13.32%    | 2.8225     | 17.10%   | 2.8035    | 0.52    |
+| MobileNetV2 | 90.18%    | 0.3710     | 95.00%   | 0.2312    | 0.99    |
+
 -----------------------------------------
 https://colab.research.google.com/drive/1GQojdDSotugDAvxO_zIBTCSfq_FpbLCr#scrollTo=qZa4ErG15Dzw
